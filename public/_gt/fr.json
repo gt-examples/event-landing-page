@@ -1,0 +1,195 @@
+{
+  "0806f8629e2dd71d": "Inscriptions et café d’accueil",
+  "0c650fe95302c645": "Chercheur de premier plan en linguistique computationnelle, avec plus de 15 ans d’expérience dans la création de systèmes de TAL multilingues.",
+  "1a47fd3686501598": "Conférencier principal",
+  "1d04f1eeb5b04c28": [
+    {
+      "c": "Lieu",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": "Moscone Center, San Francisco",
+      "i": 2,
+      "t": "p"
+    },
+    {
+      "c": "747 Howard Street, San Francisco, CA 94103",
+      "i": 3,
+      "t": "p"
+    }
+  ],
+  "30888e0f67b5df17": "Présentations éclair",
+  "32310859d182914b": "Présentation éclair",
+  "33273a0b0023d1f0": "Cocktail de réseautage",
+  "343ea64fdb882d81": "Intervenants",
+  "42e90f3683c16109": "Table ronde : la localisation à l’échelle",
+  "5110d9bef5987be3": [
+    {
+      "c": "Réservez votre place",
+      "i": 1,
+      "t": "h3"
+    },
+    {
+      "c": [
+        "Tarif early bird disponible jusqu'au ",
+        {
+          "i": 3,
+          "k": "_gt_date_3",
+          "v": "d"
+        }
+      ],
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "511cc11ecf9114e7": [
+    {
+      "c": "TranslateConf 2026",
+      "i": 1,
+      "t": "h2"
+    },
+    {
+      "c": "La conférence de référence pour l'ingénierie logicielle multilingue",
+      "i": 2,
+      "t": "p"
+    },
+    {
+      "c": "San Francisco, CA",
+      "i": 3,
+      "t": "p"
+    }
+  ],
+  "52a9c9a84cc2f149": "Ingénieur full-stack spécialisé dans les applications web internationalisées. Créateur de plusieurs outils i18n open source.",
+  "5f669facad12a9b4": "Atelier : concevoir des applications pensées pour l’i18n dès le départ",
+  "63120cf48326266f": {
+    "c": "Conçu avec General Translation pour démontrer des pages d'événements multilingues.",
+    "i": 1,
+    "t": "p"
+  },
+  "67ddfcb740de4518": "Modérateur de la table ronde",
+  "7548905fb09140ef": [
+    {
+      "i": 1,
+      "k": "_gt_date_1",
+      "v": "d"
+    },
+    " -- ",
+    {
+      "i": 2,
+      "k": "_gt_date_2",
+      "v": "d"
+    }
+  ],
+  "8308cc8ecda3203d": "Programme du jour 1",
+  "abeb18184c43397c": "Chef de produit spécialisé dans la définition de la stratégie de localisation pour des produits SaaS à l’échelle mondiale. A précédemment piloté l’i18n dans trois entreprises du Fortune 500.",
+  "b573fe29bf50b35a": "TranslateConf 2026",
+  "b9200e660303b29b": "Conférence d’ouverture : l’avenir des logiciels multilingues",
+  "c3fe5790e4bb3fe5": "Developer Advocate, passionné par la simplification des workflows de traduction pour les petites équipes et les développeurs indépendants.",
+  "db0867f9def81e92": "Animateur de l’atelier",
+  "e8ff3ab8fa62f55d": {
+    "c": [
+      "Rejoignez ",
+      {
+        "i": 2,
+        "k": "_gt_n_2",
+        "v": "n"
+      },
+      " participants déjà inscrits"
+    ],
+    "i": 1,
+    "t": "p"
+  },
+  "e94513778f4c1829": {
+    "c": [
+      {
+        "c": [
+          {
+            "c": {
+              "i": 4,
+              "k": "_gt_n_4",
+              "v": "n"
+            },
+            "i": 3,
+            "t": "div"
+          },
+          {
+            "c": "Jours",
+            "i": 5,
+            "t": "div"
+          }
+        ],
+        "i": 2,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": {
+              "i": 8,
+              "k": "_gt_n_8",
+              "v": "n"
+            },
+            "i": 7,
+            "t": "div"
+          },
+          {
+            "c": "Heures",
+            "i": 9,
+            "t": "div"
+          }
+        ],
+        "i": 6,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": {
+              "i": 12,
+              "k": "_gt_n_12",
+              "v": "n"
+            },
+            "i": 11,
+            "t": "div"
+          },
+          {
+            "c": "Minutes",
+            "i": 13,
+            "t": "div"
+          }
+        ],
+        "i": 10,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": {
+              "i": 16,
+              "k": "_gt_n_16",
+              "v": "n"
+            },
+            "i": 15,
+            "t": "div"
+          },
+          {
+            "c": "Secondes",
+            "i": 17,
+            "t": "div"
+          }
+        ],
+        "i": 14,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "f3b56179ddc8676e": "Pause déjeuner",
+  "fd2d2f89b0722718": {
+    "c": "S'inscrire maintenant",
+    "i": 1,
+    "t": "a"
+  }
+}
