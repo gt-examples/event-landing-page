@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import { GTProvider } from "gt-next";
+import { getGT } from "gt-next/server";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -8,11 +9,46 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Translate Conf 2026 | GT",
-  description:
-    "A multilingual event landing page built with General Translation",
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const gt = await getGT();
+
+  const title = gt("Translate Conf 2026 | General Translation");
+  const description = gt(
+    "A multilingual event landing page built with General Translation."
+  );
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      locale,
+      type: "website",
+      siteName: "General Translation",
+    },
+    twitter: {
+      card: "summary",
+      title,
+      description,
+    },
+    alternates: {
+      canonical: "https://event-landing-page.generaltranslation.dev",
+      languages: {
+        en: "/en",
+        es: "/es",
+        fr: "/fr",
+        ja: "/ja",
+        zh: "/zh",
+      },
+    },
+  };
+}
 
 export default async function RootLayout({
   children,
